@@ -4,13 +4,20 @@
 	<link rel="stylesheet" href="sytle.css">
 </head>
 <body>
-	<link rel="script" href="popup.js">
+	
 	<form id="wiring-info">
 		<label>Fleet: </label>
-		<select id="fleet"><option>A300</option><option>757</option><option>767</option><option>777</option><option>MD11</option></select><br>
+		<select id="fleet">
+			<option>A300</option>
+			<option>757</option>
+			<option>767</option>
+			<option>777</option>
+			<option>MD11</option>
+		</select><br>
 		<label>Tail Number: </label><input type="text" id="tail-num">
-		<label>Wire ID: </label><input type="text" id="wire-id">
-		<button id="submit" onclick="search()">Submit</button>
+		<label>FIN: </label><input type="text" id="fin">
+		<button id="submit">Submit</button>
 	</form>
+	<script src="popup.js"></script>
 </body>
 </html>
