@@ -15,7 +15,7 @@ function search() {
 	let fleetvalue = fleet.value
 	switch (fleetvalue) {
 			case "A300":
-				window.open('https://ngps-app.lhsprod.fedex.com:8001/ngpsmobile/Manual.do?publicationName=A300-600', '_blank')
+				window.open('http://ngps-app.lhsprod.fedex.com:8001/ngpsmobile/Manual.do?publicationName=A300-600', '_blank')
 				break
 			case "757":
 				window.open('http://ngps-app.lhsprod.fedex.com:8001/ngpsmobile/Manual.do?publicationName=B757', '_blank')
